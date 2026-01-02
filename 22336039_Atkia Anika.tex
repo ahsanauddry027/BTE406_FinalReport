@@ -1,0 +1,179 @@
+\documentclass[12pt]{article}
+
+% ---------------- PACKAGES ----------------
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{mathptmx} % Times New Roman font
+\usepackage{geometry}
+\geometry{a4paper, margin=1in}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{amsmath}
+\usepackage{hyperref}
+\usepackage{xurl}
+\usepackage{setspace}
+\usepackage{sectsty}
+
+% ---------------- FORMATTING ----------------
+\onehalfspacing
+\sectionfont{\fontsize{14}{16}\selectfont}
+\subsectionfont{\fontsize{12}{14}\selectfont}
+
+% ---------------- DOCUMENT ----------------
+\begin{document}
+
+% ---------------- TITLE PAGE ----------------
+\begin{titlepage}
+    \centering
+    \vspace*{0.5cm}
+
+    \includegraphics[width=0.4\textwidth]{bracu-logo.png}\\[1cm]
+
+    {\large \textbf{BRAC UNIVERSITY}}\\
+    {\large Department of Mathematics and Natural Sciences (MNS)}\\[1.5cm]
+
+    {\Large \textbf{RNA-seq Read Mapping to a Bacterial Genome Assembly}}\\[1cm]
+
+    {\large \textbf{Course: BTE406 -- Genomics \& Proteomics}}\\
+    {\large Fall 2025 }\\[0.2cm]
+
+    \vspace{1.5cm}
+
+    \textbf{Submitted By:}\\
+    Atkia Anika\\
+    Student ID: 22336039\\[1.2cm]
+
+    \textbf{Instructor:}\\
+    Mahdi Moosa, PhD\\
+    Department of Mathematics and Natural Sciences\\[2cm]
+
+    \vfill
+    \today
+\end{titlepage}
+
+\newpage
+
+% ---------------- TABLE OF CONTENTS ----------------
+\tableofcontents
+\newpage
+
+% ---------------- SECTION 1 ----------------
+\section{Species and SRA Accession Details}
+
+The bacterial species selected for this project is \textit{Salmonella enterica} subsp. \textit{enterica} serovar Typhimurium strain D23580, a sequence type 313 (ST313) lineage associated with invasive non-typhoidal \textit{Salmonella} disease. Both genomic and transcriptomic datasets for this strain were obtained from the NCBI Sequence Read Archive (SRA) and analysed using the Galaxy platform, in accordance with the project instructions.
+
+\begin{table}[h]
+\centering
+\caption{Dataset Accession and Sequencing Details}
+\begin{tabular}{@{}llll@{}}
+\toprule
+Data Type & SRA Accession ID & Sequencing Platform & Read Type \\
+\midrule
+Genomic DNA (WGS) & SRR29773379 & Illumina & Paired-end \\
+RNA-seq & SRR35569531 & Illumina & Paired-end \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+These datasets satisfy the requirement to use a single bacterial species with separate whole-genome and RNA-seq datasets generated using paired-end Illumina sequencing.
+
+% ---------------- SECTION 2 ----------------
+\section{Genome Assembly Statistics}
+
+Genomic paired-end reads from SRR29773379 were assembled \textit{de novo} using the SPAdes assembler with default parameters available in Galaxy. Assembly quality metrics were generated using the QUAST tool without supplying a reference genome, consistent with the assignment’s emphasis on evaluating draft genome assemblies rather than optimising genome closure.
+
+The resulting assembly statistics were as follows:
+
+\begin{itemize}
+    \item \textbf{Total assembly length:} 5,150,460 bp
+    \item \textbf{Number of contigs:} 153
+    \item \textbf{N50:} 222,743 bp
+    \item \textbf{Largest contig:} 595,984 bp
+\end{itemize}
+
+These values indicate a fragmented but acceptable bacterial draft genome. Although the assembly is not fully closed, the overall genome size and the presence of several large contigs make it suitable for downstream RNA-seq read mapping and interpretation.
+
+% ---------------- SECTION 3 ----------------
+\section{RNA-seq Read Mapping Results}
+
+Paired-end RNA-seq reads from SRR35569531 were mapped to the \textit{de novo} assembled genome using Bowtie2 with default alignment parameters. The assembled contigs FASTA file was used as the reference genome, and mapping statistics were extracted using Samtools flagstat.
+
+The alignment results were:
+
+\begin{itemize}
+    \item \textbf{Total RNA-seq reads:} 54,655,298
+    \item \textbf{Mapped reads:} 48,644,755
+    \item \textbf{Unmapped reads:} 6,010,543
+    \item \textbf{Properly paired reads:} 15,187,714 (27.79\%)
+\end{itemize}
+
+% ---------------- SECTION 4 ----------------
+\section{Mapping Statistics and Calculations}
+
+Mapping fractions were calculated using the formulas provided in the assignment instructions.
+
+\begin{equation}
+\text{Mapped fraction} = \left( \frac{48,644,755}{54,655,298} \right) \times 100 = 89.00\%
+\end{equation}
+
+\begin{equation}
+\text{Unmapped fraction} = \left( \frac{6,010,543}{54,655,298} \right) \times 100 = 11.00\%
+\end{equation}
+
+These results indicate that the majority of RNA-seq reads successfully aligned to the draft genome assembly.
+
+% ---------------- SECTION 5 ----------------
+\section{Interpretation and Discussion}
+
+\subsection{Mapping percentage and assembly quality}
+
+An overall RNA-seq mapping rate of 89.00\% is high for a \textit{de novo} bacterial genome assembly. This indicates that most expressed genes have corresponding sequences present in the assembled contigs, suggesting that the genome assembly is genomically largely complete despite being structurally fragmented into 153 contigs.
+
+\subsection{Biological factors contributing to unmapped reads}
+
+Some unmapped RNA-seq reads can be attributed to biological features of \textit{Salmonella Typhimurium} D23580. This strain harbours plasmids and prophages that contain repetitive or mobile genetic elements, which are difficult to assemble accurately using short-read sequencing. If such regions are partially assembled or absent from the draft genome, transcripts originating from these elements may fail to map. In addition, transcripts from low-abundance or condition-specific genes may correspond to genomic regions represented by short or fragmented contigs, further contributing to the unmapped read fraction.
+
+\newpage
+\subsection{Technical factors contributing to unmapped or improperly paired reads}
+
+Technical limitations of the assembly and mapping process also play a major role. The fragmentation of the genome into 153 contigs significantly reduces alignment quality for paired-end RNA-seq data. As illustrated in Figure~\ref{fig:cumulative}, the assembly reaches the total genome size of 5.15 Mb through a long tail of smaller contigs, visually confirming this structural fragmentation.
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=0.65\textwidth]{cumulative_length.png}
+    \caption{Cumulative length plot showing assembly fragmentation into small contigs.}
+    \label{fig:cumulative}
+\end{figure}
+
+This fragmentation disrupts the concordant alignment of paired-end reads, particularly those spanning contig boundaries. Notably, only \textbf{27.79\%} of reads were reported as "properly paired" despite the \textbf{high 89\% overall mapping rate}. This sharp contrast indicates that while most individual reads can align to the genome, the fragmented assembly frequently prevents correct concordant placement of paired-end reads. Read pairs spanning these boundaries lose their proper orientation information, leading to discordant or improperly paired alignments. Additional technical factors contributing to the unmapped fraction include sequencing errors, residual ribosomal RNA contamination, and inherent limitations of short-read alignment algorithms.
+
+
+\subsection{Use of a complete reference genome}
+
+If a complete reference genome were used instead of a \textit{de novo} draft assembly, the RNA-seq mapping rate would be expected to increase. A closed reference genome resolves repetitive regions, fills assembly gaps, and typically includes plasmid and prophage sequences, providing continuous genomic coverage. Under such conditions, more RNA-seq read pairs would align concordantly across uninterrupted genomic regions, reducing both the unmapped fraction and the proportion of improperly paired reads.
+
+% ---------------- ACKNOWLEDGEMENTS ----------------
+\section*{Acknowledgements}
+\addcontentsline{toc}{section}{Acknowledgements}
+
+I would like to express my gratitude to my instructor, Mahdi Moosa, PhD, for his guidance and support throughout this course. I also thank the Department of Mathematics and Natural Sciences at BRAC University for providing the necessary resources for this project.
+
+% ---------------- APPENDIX ----------------
+\section*{Appendix: Galaxy Workflow and Analysis History}
+\addcontentsline{toc}{section}{Appendix: Galaxy Workflow and Analysis History}
+
+All analyses were performed using the Galaxy platform, following the structured bioinformatics pipeline illustrated in Figure~\ref{fig:workflow}. This workflow covers the entire process from initial data acquisition to final statistical interpretation.
+
+\begin{figure}[h]
+    \centering
+    % Scaling to 0.8 (80%) of text width to fit better on the page
+    \includegraphics[width=0.8\textwidth]{Workflow.png}
+    \caption{Galaxy workflow for \textit{S. Typhimurium} genome assembly and RNA-seq mapping.}
+    \label{fig:workflow}
+\end{figure}
+
+
+The complete Galaxy analysis history, containing all raw datasets, intermediate files (such as SPAdes contigs), and final mapping outputs (Samtools flagstat), is available for review at: \\
+\textit{Publicly Available URL:} \url{https://usegalaxy.org.au/u/atkia_anika/h/final-406-assignment}
+
+\end{document}
