@@ -1,8 +1,8 @@
 # Fdb version 4
-["pdflatex"] 1767523068.55085 "d:/Latex/Ahsan/AcademicCv.tex" "AcademicCv.pdf" "AcademicCv" 1767523072.28985 0
-  "AcademicCv.aux" 1767523071 900 05defb79d49b6c5f555082c01d158674 "pdflatex"
-  "AcademicCv.out" 1767523071 888 59e59bc98d85404b97c083943c80d24b "pdflatex"
-  "AcademicCv.tex" 1767523004 4355 d08bab12f7fa3e6bcdde1001ca8ed151 ""
+["pdflatex"] 1767523544.65381 "d:/Latex/Ahsan/AcademicCv.tex" "AcademicCv.pdf" "AcademicCv" 1767523547.72046 0
+  "AcademicCv.aux" 1767523547 900 05defb79d49b6c5f555082c01d158674 "pdflatex"
+  "AcademicCv.out" 1767523547 888 59e59bc98d85404b97c083943c80d24b "pdflatex"
+  "AcademicCv.tex" 1767523516 4426 dedcde1fbe1157beabc134c250897fcf ""
   "C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/times/ptmb7t.tfm" 1136750654 2172 fd0c924230362ff848a33632ed45dc23 ""
   "C:/Program Files/MiKTeX/fonts/tfm/adobe/times/ptmb8r.tfm" 1136750654 4524 6bce29db5bc272ba5f332261583fee9c ""
@@ -195,7 +195,7 @@
   "C:/Users/ahsanauddry/AppData/Roaming/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1751104012 9684 a33a14b82ce60d6e77cb9be689d79ee6 ""
   "C:/Users/ahsanauddry/AppData/Roaming/MiKTeX/tex/latex/tex-gyre/t1qpl.fd" 1525740614 1640 e3069415f0401b1e6e2d69bd4f2f0a7b ""
   "C:/Users/ahsanauddry/AppData/Roaming/MiKTeX/tex/latex/tex-gyre/tgpagella.sty" 1525740614 2230 fc853fd117e6b73f5d6716214d3abb3c ""
-  "d:/Latex/Ahsan/AcademicCv.tex" 1767523004 4355 d08bab12f7fa3e6bcdde1001ca8ed151 ""
+  "d:/Latex/Ahsan/AcademicCv.tex" 1767523516 4426 dedcde1fbe1157beabc134c250897fcf ""
   (generated)
   "AcademicCv.aux"
   "AcademicCv.log"
