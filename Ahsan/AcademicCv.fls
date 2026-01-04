@@ -70,17 +70,8 @@ INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\moderncv\moderncvcol
 INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\moderncv\moderncvcollection.sty
 INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\moderncv\moderncvcompatibility.sty
 INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\moderncv\moderncvcompatibility.sty
-INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\moderncv\moderncvstylebanking.sty
-INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\moderncv\moderncvstylebanking.sty
-INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\tex-gyre\tgpagella.sty
-INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\tex-gyre\tgpagella.sty
-INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\tex-gyre\tgpagella.sty
-INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\kvoptions\kvoptions.sty
-INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\kvoptions\kvoptions.sty
-INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
-INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
-INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\kvsetkeys\kvsetkeys.sty
-INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\kvsetkeys\kvsetkeys.sty
+INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\moderncv\moderncvstyleclassic.sty
+INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\moderncv\moderncvstyleclassic.sty
 INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\moderncv\moderncviconssymbols.sty
 INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\moderncv\moderncviconssymbols.sty
 INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\moderncv\moderncviconsawesome.sty
@@ -149,10 +140,6 @@ INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathcalc.code.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfmathfloat.code.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\math\pgfint.code.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepoints.code.tex
-INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\tex-gyre\t1qpl.fd
-INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\tex-gyre\t1qpl.fd
-INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\tex-gyre\t1qpl.fd
-INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\fonts\tfm\public\tex-gyre\ec-qplr.tfm
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepathconstruct.code.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcorepathusage.code.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\basiclayer\pgfcorescopes.code.tex
@@ -198,21 +185,22 @@ INPUT C:\Program Files\MiKTeX\tex\generic\pgf\libraries\pgflibraryplothandlers.c
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\modules\pgfmodulematrix.code.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex
 INPUT C:\Program Files\MiKTeX\tex\generic\pgf\frontendlayer\tikz\libraries\tikzlibrarytopaths.code.tex
-INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\moderncv\moderncvheadiii.sty
-INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\moderncv\moderncvheadiii.sty
-INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\moderncv\moderncvbodyiii.sty
-INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\moderncv\moderncvbodyiii.sty
+INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\moderncv\moderncvheadi.sty
+INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\moderncv\moderncvheadi.sty
+INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\moderncv\moderncvbodyi.sty
+INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\moderncv\moderncvbodyi.sty
 INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\moderncv\moderncvskillmatrix.sty
 INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\moderncv\moderncvskillmatrix.sty
 INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\multirow\multirow.sty
 INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\multirow\multirow.sty
 INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\arydshln\arydshln.sty
 INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\arydshln\arydshln.sty
-INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\fonts\tfm\public\tex-gyre\ec-qplr.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ecrm0600.tfm
 INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\fontawesome5\ufontawesomefree0.fd
 INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\fontawesome5\ufontawesomefree0.fd
 INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\fontawesome5\ufontawesomefree0.fd
 INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\fonts\tfm\public\fontawesome5\fa5free0regular.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\jknappen\ec\ecrm1728.tfm
 INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\moderncv\moderncvcolorblue.sty
 INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\moderncv\moderncvcolorblue.sty
 INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\moderncv\moderncvcolors.tex
@@ -231,10 +219,14 @@ INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\psnfss\mathptmx.sty
 INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\psnfss\mathptmx.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\hyperref.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\hyperref.sty
+INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\kvsetkeys\kvsetkeys.sty
+INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\kvsetkeys\kvsetkeys.sty
 INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\generic\kvdefinekeys\kvdefinekeys.sty
 INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\generic\kvdefinekeys\kvdefinekeys.sty
 INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\generic\pdfescape\pdfescape.sty
 INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\generic\pdfescape\pdfescape.sty
+INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
+INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\generic\ltxcmds\ltxcmds.sty
 INPUT C:\Program Files\MiKTeX\tex\generic\pdftexcmds\pdftexcmds.sty
 INPUT C:\Program Files\MiKTeX\tex\generic\pdftexcmds\pdftexcmds.sty
 INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\generic\infwarerr\infwarerr.sty
@@ -247,6 +239,8 @@ INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\refcount\refcount.st
 INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\refcount\refcount.sty
 INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
 INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\generic\gettitlestring\gettitlestring.sty
+INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\kvoptions\kvoptions.sty
+INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\kvoptions\kvoptions.sty
 INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\generic\stringenc\stringenc.sty
 INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\generic\stringenc\stringenc.sty
 INPUT C:\Program Files\MiKTeX\tex\latex\hyperref\pd1enc.def
@@ -295,18 +289,46 @@ OUTPUT AcademicCv.pdf
 INPUT .\AcademicCv.out
 INPUT .\AcademicCv.out
 OUTPUT AcademicCv.out
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmro8t.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmri8t.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmb8t.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
+INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\psnfss\ot1ztmcm.fd
+INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\psnfss\ot1ztmcm.fd
+INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\psnfss\ot1ztmcm.fd
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\zptmcm7t.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\zptmcm7t.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\zptmcm7t.tfm
+INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\psnfss\omlztmcm.fd
+INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\psnfss\omlztmcm.fd
+INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\psnfss\omlztmcm.fd
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\zptmcm7m.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\zptmcm7m.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\zptmcm7m.tfm
+INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\psnfss\omsztmcm.fd
+INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\psnfss\omsztmcm.fd
+INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\psnfss\omsztmcm.fd
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\zptmcm7y.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\zptmcm7y.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\zptmcm7y.tfm
+INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\psnfss\omxztmcm.fd
+INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\psnfss\omxztmcm.fd
+INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\psnfss\omxztmcm.fd
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\zptmcm7v.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\zptmcm7v.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\zptmcm7v.tfm
+INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\psnfss\ot1ptm.fd
+INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\psnfss\ot1ptm.fd
+INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\psnfss\ot1ptm.fd
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
 INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\fontawesome5\ufontawesomefree2.fd
 INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\fontawesome5\ufontawesomefree2.fd
 INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\fontawesome5\ufontawesomefree2.fd
 INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\fonts\tfm\public\fontawesome5\fa5free2solid.tfm
-INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\psnfss\ts1ptm.fd
-INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\psnfss\ts1ptm.fd
-INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\psnfss\ts1ptm.fd
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr8c.tfm
 INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\fontawesome5\ufontawesomefree1.fd
 INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\fontawesome5\ufontawesomefree1.fd
 INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\fontawesome5\ufontawesomefree1.fd
@@ -315,33 +337,27 @@ INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\fontawesome5\ufontaw
 INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\fontawesome5\ufontawesomebrands0.fd
 INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\fontawesome5\ufontawesomebrands0.fd
 INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\fonts\tfm\public\fontawesome5\fa5brands0.tfm
-INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\psnfss\ot1ztmcm.fd
-INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\psnfss\ot1ztmcm.fd
-INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\psnfss\ot1ztmcm.fd
+INPUT .\formal.jpg
+INPUT .\formal.jpg
+INPUT .\formal.jpg
+INPUT .\formal.jpg
+INPUT .\formal.jpg
+INPUT .\formal.jpg
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmro8t.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\zptmcm7t.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\zptmcm7t.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\zptmcm7t.tfm
-INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\psnfss\omlztmcm.fd
-INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\psnfss\omlztmcm.fd
-INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\psnfss\omlztmcm.fd
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\zptmcm7m.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\zptmcm7m.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\zptmcm7m.tfm
-INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\psnfss\omsztmcm.fd
-INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\psnfss\omsztmcm.fd
-INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\psnfss\omsztmcm.fd
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\zptmcm7y.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\zptmcm7y.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\zptmcm7y.tfm
-INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\psnfss\omxztmcm.fd
-INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\psnfss\omxztmcm.fd
-INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\psnfss\omxztmcm.fd
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\zptmcm7v.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\zptmcm7v.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\zptmcm7v.tfm
-INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\psnfss\ot1ptm.fd
-INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\psnfss\ot1ptm.fd
-INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex\latex\psnfss\ot1ptm.fd
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmb7t.tfm
@@ -350,35 +366,38 @@ INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmri7t.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmb8t.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmb8t.tfm
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmbi8t.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmro8t.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr8t.tfm
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmb8t.tfm
-INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmb8t.vf
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmri8t.tfm
+INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmr8t.vf
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT C:\Users\ahsanauddry\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
 INPUT C:\Program Files\MiKTeX\fonts\enc\dvips\base\8r.enc
-INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmr8t.vf
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
-INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmr8t.vf
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
+INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmro8t.vf
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmro8r.tfm
+INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmro8t.vf
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmro8r.tfm
 INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\fonts\enc\dvips\fontawesome5\fa5free2.enc
-INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmr8c.vf
 INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\fonts\enc\dvips\fontawesome5\fa5free1.enc
 INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\fonts\enc\dvips\fontawesome5\fa5brands0.enc
+INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmr8t.vf
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmb8t.vf
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
-INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmb8t.vf
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
-INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmri8t.vf
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
-INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmbi8t.vf
-INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmbi8r.tfm
+INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmr8t.vf
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
+INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmro8t.vf
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmro8r.tfm
 INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\fonts\enc\dvips\fontawesome5\fa5free0.enc
 INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmb8t.vf
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmb8r.tfm
 INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmr8t.vf
 INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
+INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmri8t.vf
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
+INPUT C:\Program Files\MiKTeX\fonts\vf\adobe\times\ptmri8t.vf
+INPUT C:\Program Files\MiKTeX\fonts\tfm\adobe\times\ptmri8r.tfm
 INPUT AcademicCv.aux
 INPUT .\AcademicCv.out
 INPUT .\AcademicCv.out
@@ -390,8 +409,8 @@ INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\fonts\type1\public\fontawesome
 INPUT C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\fonts\type1\public\fontawesome5\FontAwesome5Free-Solid.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\urw\times\utmb8a.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\urw\times\utmb8a.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\urw\times\utmbi8a.pfb
-INPUT C:\Program Files\MiKTeX\fonts\type1\urw\times\utmbi8a.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\urw\times\utmr8a.pfb
+INPUT C:\Program Files\MiKTeX\fonts\type1\urw\times\utmr8a.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\urw\times\utmr8a.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\urw\times\utmr8a.pfb
 INPUT C:\Program Files\MiKTeX\fonts\type1\urw\times\utmri8a.pfb
