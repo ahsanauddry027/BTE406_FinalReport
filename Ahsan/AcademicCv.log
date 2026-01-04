@@ -1,30 +1,36 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2026.1.1)  4 JAN 2026 16:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2026.1.1)  4 JAN 2026 16:42
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
-**d:/Latex/Ahsan/AcademicCv.tex
-(d:/Latex/Ahsan/AcademicCv.tex
+**./AcademicCv.tex
+(AcademicCv.tex
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
 (C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/moderncv\moderncv.cls
-Document Class: moderncv 2024-07-18 v2.4.1 modern curriculum vitae and letter document class
+Document Class: moderncv 2024-07-18 v2.4.1 modern curriculum vitae and letter d
+ocument class
 (C:\Program Files\MiKTeX\tex/latex/base\size12.clo
 File: size12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
-) (C:\Program Files\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+)
+(C:\Program Files\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count275
-) (C:\Program Files\MiKTeX\tex/latex/base\ifthen.sty
+)
+(C:\Program Files\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
-) (C:\Program Files\MiKTeX\tex/latex/xcolor\xcolor.sty
+)
+(C:\Program Files\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2024/09/29 v3.02 LaTeX color extensions (UK)
- (C:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg
+
+(C:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 274.
- (C:\Program Files\MiKTeX\tex/latex/graphics-def\pdftex.def
+
+(C:\Program Files\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
-) (C:\Program Files\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+)
+(C:\Program Files\MiKTeX\tex/latex/graphics\mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1349.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1353.
 Package xcolor Info: Model `RGB' extended on input line 1365.
@@ -34,9 +40,11 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
-) (C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/colortbl\colortbl.sty
+)
+(C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/colortbl\colortbl.sty
 Package: colortbl 2024/10/29 v1.0k Color table columns (DPC)
- (C:\Program Files\MiKTeX\tex/latex/tools\array.sty
+
+(C:\Program Files\MiKTeX\tex/latex/tools\array.sty
 Package: array 2025/06/08 v2.6j Tabular extension package (FMi)
 \col@sep=\dimen148
 \ar@mcellbox=\box53
@@ -49,31 +57,41 @@ Package: array 2025/06/08 v2.6j Tabular extension package (FMi)
 \everycr=\toks18
 \minrowclearance=\skip51
 \rownum=\count276
-) (C:\Program Files\MiKTeX\tex/generic/iftex\iftex.sty
+)
+(C:\Program Files\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
-) (C:\Program Files\MiKTeX\tex/latex/url\url.sty
+)
+(C:\Program Files\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
-) (C:\Program Files\MiKTeX\tex/latex/base\fontenc.sty
+)
+(C:\Program Files\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2024/12/21 v2.1c Standard LaTeX package
-) (C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty
+)
+(C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
- (C:\Program Files\MiKTeX\tex/latex/graphics\keyval.sty
+
+(C:\Program Files\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks19
-) (C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty
+)
+(C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
- (C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty
+
+(C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
-) (C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+)
+(C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 106.
 )
 \Gin@req@height=\dimen150
 \Gin@req@width=\dimen151
-) (C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+)
+(C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
 Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
+
 \f@nch@headwidth=\skip52
 \f@nch@offset@elh=\skip53
 \f@nch@offset@erh=\skip54
@@ -89,7 +107,9 @@ Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \f@nch@widthC=\skip64
 \f@nch@widthR=\skip65
 \@temptokenb=\toks20
-) (C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/moderncv\tweaklist.sty) (C:\Program Files\MiKTeX\tex/latex/tools\calc.sty
+)
+(C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/moderncv\tweaklist.sty)
+(C:\Program Files\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2025/03/01 v4.3b Infix arithmetic (KKT,FJ)
 \calc@Acount=\count277
 \calc@Bcount=\count278
@@ -101,14 +121,18 @@ LaTeX Info: Redefining \setlength on input line 86.
 LaTeX Info: Redefining \addtolength on input line 87.
 \calc@Ccount=\count279
 \calc@Cskip=\skip68
-) (C:\Program Files\MiKTeX\tex/latex/l3packages/xparse\xparse.sty (C:\Program Files\MiKTeX\tex/latex/l3kernel\expl3.sty
+)
+(C:\Program Files\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
+(C:\Program Files\MiKTeX\tex/latex/l3kernel\expl3.sty
 Package: expl3 2025-09-02 L3 programming layer (loader) 
- (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+
+(C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count280
 ))
 Package: xparse 2024-08-16 L3 Experimental document command parser
-) (C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/microtype\microtype.sty
+)
+(C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/microtype\microtype.sty
 Package: microtype 2025/07/09 v3.2b Micro-typographical refinements (RS)
 \MT@toks=\toks21
 \MT@tempbox=\box55
@@ -122,22 +146,31 @@ LaTeX Info: Redefining \textls on input line 1449.
 LaTeX Info: Redefining \microtypecontext on input line 2053.
 LaTeX Info: Redefining \textmicrotypecontext on input line 2070.
 \MT@listname@count=\count282
- (C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/microtype\microtype-pdftex.def
+
+(C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/microtype\microtype-pdft
+ex.def
 File: microtype-pdftex.def 2025/07/09 v3.2b Definitions specific to pdftex (RS)
+
 LaTeX Info: Redefining \lsstyle on input line 944.
 LaTeX Info: Redefining \lslig on input line 944.
 \MT@outer@space=\skip69
 )
 Package microtype Info: Loading configuration file microtype.cfg.
- (C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/microtype\microtype.cfg
+
+(C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/microtype\microtype.cfg
 File: microtype.cfg 2025/07/09 v3.2b microtype main configuration file (RS)
 )
 LaTeX Info: Redefining \microtypesetup on input line 3065.
-) (C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/moderncv\moderncvcollection.sty
+)
+(C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/moderncv\moderncvcollect
+ion.sty
 Package: moderncvcollection 2024-07-18 v2.4.1 moderncv collections
 \c@collection@iterator=\count283
-) (C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/moderncv\moderncvcompatibility.sty
-Package: moderncvcompatibility 2024-07-18 v2.4.1 modern curriculum vitae and letter compatibility patches
+)
+(C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/moderncv\moderncvcompati
+bility.sty
+Package: moderncvcompatibility 2024-07-18 v2.4.1 modern curriculum vitae and le
+tter compatibility patches
 )
 \c@collection@phones@count=\count284
 \c@collection@socials@count=\count285
@@ -149,48 +182,85 @@ Package: moderncvcompatibility 2024-07-18 v2.4.1 modern curriculum vitae and let
 \cvcolumnsautowidth=\skip72
 \cvcolumnautowidth=\skip73
 \bibindent=\skip74
-) (C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/moderncv\moderncvstylebanking.sty
-Package: moderncvstylebanking 2024-07-18 v2.4.1 modern curriculum vitae and letter style scheme: banking
- (C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/tex-gyre\tgpagella.sty
+)
+(C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/moderncv\moderncvstyleba
+nking.sty
+Package: moderncvstylebanking 2024-07-18 v2.4.1 modern curriculum vitae and let
+ter style scheme: banking
+
+(C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/tex-gyre\tgpagella.sty
 Package: tgpagella 2009/09/27 v1.2 TeX Gyre Pagella as default roman family
- (C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+
+(C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
- (C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+
+(C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
-) (C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+)
+(C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-))) (C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/moderncv\moderncviconssymbols.sty
-Package: moderncviconssymbols 2021-12-12 v2.2.0 modern curriculum vitae icons selector
+)))
+(C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/moderncv\moderncviconssy
+mbols.sty
+Package: moderncviconssymbols 2021-12-12 v2.2.0 modern curriculum vitae icons s
+elector
 
 
 moderncv: academicons requires XeTeX/LuaTeX to work. Using alternatives.
 
-(C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/moderncv\moderncviconsawesome.sty
-Package: moderncviconsawesome 2024-07-18 v2.4.1 modern curriculum vitae icons: awesome
- (C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/fontawesome5\fontawesome5.sty
+
+(C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/moderncv\moderncviconsaw
+esome.sty
+Package: moderncviconsawesome 2024-07-18 v2.4.1 modern curriculum vitae icons: 
+awesome
+
+(C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/fontawesome5\fontawesome
+5.sty
 Package: fontawesome5 2022/05/02 v5.15.4 Font Awesome 5
  (C:\Program Files\MiKTeX\tex/latex/l3packages/l3keys2e\l3keys2e.sty
 Package: l3keys2e 2024-08-16 LaTeX2e option processing using LaTeX3 keys
-) (C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/fontawesome5\fontawesome5-generic-helper.sty
-Package: fontawesome5-generic-helper 2022/05/02 v5.15.4 non-uTeX helper for fontawesome5
- (C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/fontawesome5\fontawesome5-mapping.def))) (C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/moderncv\moderncvcolors.tex)) (C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/moderncv\moderncviconstikz.sty
-Package: moderncviconstikz 2024-07-18 v2.4.1 modern curriculum vitae and letter icons: tickz
- (C:\Program Files\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty (C:\Program Files\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty (C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
+)
+(C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/fontawesome5\fontawesome
+5-generic-helper.sty
+Package: fontawesome5-generic-helper 2022/05/02 v5.15.4 non-uTeX helper for fon
+tawesome5
+
+(C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/fontawesome5\fontawesome
+5-mapping.def)))
+(C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/moderncv\moderncvcolors.
+tex))
+(C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/moderncv\moderncviconsti
+kz.sty
+Package: moderncviconstikz 2024-07-18 v2.4.1 modern curriculum vitae and letter
+ icons: tickz
+ (C:\Program Files\MiKTeX\tex/latex/pgf/frontendlayer\tikz.sty
+(C:\Program Files\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
+(C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty
+(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
 \pgfutil@everybye=\toks23
 \pgfutil@tempdima=\dimen155
 \pgfutil@tempdimb=\dimen156
-) (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
+)
+(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
 \pgfutil@abb=\box56
-) (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+)
+(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf\pgf.revision.tex)
 Package: pgfrcs 2025-08-29 v3.1.11a (3.1.11a)
 ))
 Package: pgf 2025-08-29 v3.1.11a (3.1.11a)
- (C:\Program Files\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.sty (C:\Program Files\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.code.tex
+
+(C:\Program Files\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.sty
+(C:\Program Files\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.sty
+(C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys.code.tex
 Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
- (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex
+
+(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex
 \pgfkeys@pathtoks=\toks24
 \pgfkeys@temptoks=\toks25
- (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeyslibraryfiltered.code.tex
+
+(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeyslibraryfiltered.code.
+tex
 \pgfkeys@tmptoks=\toks26
 ))
 \pgf@x=\dimen157
@@ -217,28 +287,52 @@ Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
 File: pgf.cfg 2025-08-29 v3.1.11a (3.1.11a)
 )
 Driver file for pgf: pgfsys-pdftex.def
- (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-pdftex.def
+
+(C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-pdftex.def
 File: pgfsys-pdftex.def 2025-08-29 v3.1.11a (3.1.11a)
- (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def
+
+(C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsys-common-pdf.def
 File: pgfsys-common-pdf.def 2025-08-29 v3.1.11a (3.1.11a)
-))) (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
+)))
+(C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsyssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfsyssoftpath@smallbuffer@items=\count294
 \pgfsyssoftpath@bigbuffer@items=\count295
-) (C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
+)
+(C:\Program Files\MiKTeX\tex/generic/pgf/systemlayer\pgfsysprotocol.code.tex
 File: pgfsysprotocol.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-)) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code.tex
+))
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcore.code.tex
 Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
- (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
+
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathutil.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathparser.code.tex
 \pgfmath@dimen=\dimen167
 \pgfmath@count=\count296
 \pgfmath@box=\box57
 \pgfmath@toks=\toks30
 \pgfmath@stack@operand=\toks31
 \pgfmath@stack@operation=\toks32
-) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmetics.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
+)
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.basic.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.trigonometric.co
+de.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.random.code.tex)
+
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.comparison.code.
+tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.base.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.round.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.misc.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfunctions.integerarithmeti
+cs.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathcalc.code.tex
+) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmathfloat.code.tex
 \c@pgfmathroundto@lastzeros=\count297
-)) (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfint.code.tex) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
+))
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfint.code.tex)
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@picminx=\dimen168
 \pgf@picmaxx=\dimen169
@@ -254,27 +348,37 @@ File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@yy=\dimen179
 \pgf@zx=\dimen180
 \pgf@zy=\dimen181
-LaTeX Font Info:    Trying to load font information for T1+qpl on input line 926.
- (C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/tex-gyre\t1qpl.fd
+LaTeX Font Info:    Trying to load font information for T1+qpl on input line 92
+6.
+
+(C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/tex-gyre\t1qpl.fd
 File: t1qpl.fd 2009/09/25 v1.2 font definition file for T1/qpl
-)) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.tex
+))
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathconstruct.code.t
+ex
 File: pgfcorepathconstruct.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@path@lastx=\dimen182
 \pgf@path@lasty=\dimen183
-) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
+)
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@shorten@end@additional=\dimen184
 \pgf@shorten@start@additional=\dimen185
-) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
+)
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfpic=\box58
 \pgf@hbox=\box59
 \pgf@layerbox@main=\box60
 \pgf@picture@serial@count=\count298
-) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.tex
+)
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoregraphicstate.code.te
+x
 File: pgfcoregraphicstate.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgflinewidth=\dimen186
-) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransformations.code.tex
+)
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransformations.code
+.tex
 File: pgfcoretransformations.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@pt@x=\dimen187
 \pgf@pt@y=\dimen188
@@ -283,7 +387,9 @@ File: pgfcoretransformations.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 File: pgfcorequick.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreobjects.code.tex
 File: pgfcoreobjects.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.tex
+)
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepathprocessing.code.
+tex
 File: pgfcorepathprocessing.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
@@ -293,39 +399,56 @@ File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@max=\dimen191
 \pgf@sys@shading@range@num=\count299
 \pgf@shadingcount=\count300
-) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
+)
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreimage.code.tex
 File: pgfcoreimage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
+)
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoreexternal.code.tex
 File: pgfcoreexternal.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfexternal@startupbox=\box61
-) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
+)
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorelayers.code.tex
 File: pgfcorelayers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransparency.code.tex
+)
+(C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcoretransparency.code.te
+x
 File: pgfcoretransparency.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorepatterns.code.tex
 File: pgfcorepatterns.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ) (C:\Program Files\MiKTeX\tex/generic/pgf/basiclayer\pgfcorerdf.code.tex
 File: pgfcorerdf.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-))) (C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
+)))
+(C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmoduleshapes.code.tex
 File: pgfmoduleshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfnodeparttextbox=\box62
-) (C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmoduleplot.code.tex
+)
+(C:\Program Files\MiKTeX\tex/generic/pgf/modules\pgfmoduleplot.code.tex
 File: pgfmoduleplot.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-) (C:\Program Files\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
+)
+(C:\Program Files\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@nodesepstart=\dimen192
 \pgf@nodesepend=\dimen193
-) (C:\Program Files\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
+)
+(C:\Program Files\MiKTeX\tex/latex/pgf/compatibility\pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2025-08-29 v3.1.11a (3.1.11a)
-)) (C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgffor.sty (C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex)) (C:\Program Files\MiKTeX\tex/latex/pgf/math\pgfmath.sty (C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex)) (C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex
+)) (C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgffor.sty
+(C:\Program Files\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty
+(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex))
+(C:\Program Files\MiKTeX\tex/latex/pgf/math\pgfmath.sty
+(C:\Program Files\MiKTeX\tex/generic/pgf/math\pgfmath.code.tex))
+(C:\Program Files\MiKTeX\tex/generic/pgf/utilities\pgffor.code.tex
 Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
 \pgffor@iter=\dimen194
 \pgffor@skip=\dimen195
 \pgffor@stack=\toks33
 \pgffor@toks=\toks34
-)) (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
+))
+(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz\tikz.code.tex
 Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
- (C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.tex
+
+(C:\Program Files\MiKTeX\tex/generic/pgf/libraries\pgflibraryplothandlers.code.
+tex
 File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@plot@mark@count=\count301
 \pgfplotmarksize=\dimen196
@@ -353,26 +476,39 @@ File: pgfmodulematrix.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@matrix@numberofcolumns=\count308
 )
 \tikz@expandcount=\count309
- (C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibrarytopaths.code.tex
+
+(C:\Program Files\MiKTeX\tex/generic/pgf/frontendlayer/tikz/libraries\tikzlibra
+rytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-))))) (C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/moderncv\moderncvheadiii.sty
-Package: moderncvheadiii 2024-07-18 v2.4.1 modern curriculum vitae and letter header variant: 3
+)))))
+(C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/moderncv\moderncvheadiii
+.sty
+Package: moderncvheadiii 2024-07-18 v2.4.1 modern curriculum vitae and letter h
+eader variant: 3
 \makeheaddetailsbox=\box67
 \makeheaddetailstempbox=\box68
 \makeheaddetailswidth=\skip75
 \makeheaddetailsboxwidth=\skip76
 \quotewidth=\skip77
-) (C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/moderncv\moderncvbodyiii.sty
-Package: moderncvbodyiii 2024-07-18 v2.4.1 modern curriculum vitae and letter body variant: 3
- (C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/moderncv\moderncvskillmatrix.sty
-Package: moderncvskillmatrix 2024-07-18 v2.4.1 modern curriculum vitae and letter skill matrix
- (C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/multirow\multirow.sty
+)
+(C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/moderncv\moderncvbodyiii
+.sty
+Package: moderncvbodyiii 2024-07-18 v2.4.1 modern curriculum vitae and letter b
+ody variant: 3
+
+(C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/moderncv\moderncvskillma
+trix.sty
+Package: moderncvskillmatrix 2024-07-18 v2.4.1 modern curriculum vitae and lett
+er skill matrix
+
+(C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2024/11/12 v2.9 Span multiple rows of a table
 \multirow@colwidth=\skip78
 \multirow@cntb=\count310
 \multirow@dima=\skip79
 \bigstrutjot=\dimen261
-) (C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/arydshln\arydshln.sty
+)
+(C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/arydshln\arydshln.sty
 Package: arydshln 2019/02/21 v1.76 
 \dashlinedash=\dimen262
 \dashlinegap=\dimen263
@@ -419,23 +555,33 @@ Package: arydshln 2019/02/21 v1.76
 \doubleitemcolumnwidth=\skip98
 \tripleitemcolumnwidth=\skip99
 \listitemsymbolwidth=\skip100
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree0 on input line 89.
- (C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/fontawesome5\ufontawesomefree0.fd)
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree0 on i
+nput line 89.
+
+(C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/fontawesome5\ufontawesom
+efree0.fd)
 \listitemcolumnwidth=\skip101
 \listdoubleitemcolumnwidth=\skip102
 \listitemsymbolspace=\skip103
 \cvitemwithcommentmainbox=\box70
 \cvitemwithcommentmainlength=\skip104
 \cvitemwithcommentcommentlength=\skip105
-)) (C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/moderncv\moderncvcolorblue.sty
-Package: moderncvcolorblue 2024-07-18 v2.4.1 modern curriculum vitae and letter color scheme: blue
- (C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/moderncv\moderncvcolors.tex)) (C:\Program Files\MiKTeX\tex/latex/base\inputenc.sty
+))
+(C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/moderncv\moderncvcolorbl
+ue.sty
+Package: moderncvcolorblue 2024-07-18 v2.4.1 modern curriculum vitae and letter
+ color scheme: blue
+
+(C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/moderncv\moderncvcolors.
+tex)) (C:\Program Files\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks36
 \inpenc@posthook=\toks37
-) (C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/geometry\geometry.sty
+)
+(C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
- (C:\Program Files\MiKTeX\tex/generic/iftex\ifvtex.sty
+
+(C:\Program Files\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
 \Gm@cnth=\count322
@@ -450,7 +596,9 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 \Gm@layouthoffset=\dimen276
 \Gm@layoutvoffset=\dimen277
 \Gm@dimlist=\toks38
- (C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/enumitem\enumitem.sty
+
+(C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/enumitem\enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
 \labelindent=\skip106
 \enit@outerparindent=\dimen278
@@ -458,7 +606,8 @@ Package: enumitem 2025/02/06 v3.11 Customized lists
 \enit@inbox=\box71
 \enit@count@id=\count325
 \enitdp@description=\count326
-) (C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/psnfss\mathptmx.sty
+)
+(C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/psnfss\mathptmx.sty
 Package: mathptmx 2020/03/25 PSNFSS-v9.3 Times w/ Math, improved (SPQR, WaS) 
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -493,15 +642,23 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
 LaTeX Info: Redefining \hbar on input line 50.
-) (C:\Program Files\MiKTeX\tex/latex/hyperref\hyperref.sty
+)
+(C:\Program Files\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2025-07-12 v7.01o Hypertext links for LaTeX
- (C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
+
+(C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/generic/kvdefinekeys\kvdefinek
+eys.sty
 Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
-) (C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/generic/pdfescape\pdfescape.sty
+)
+(C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/generic/pdfescape\pdfescape.st
+y
 Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
  (C:\Program Files\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
-Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
- (C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/generic/infwarerr\infwarerr.st
+y
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
@@ -511,14 +668,20 @@ Package pdftexcmds Info: \pdfdraftmode found.
 Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
 ) (C:\Program Files\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2025-06-21 v2.57 Cross-referencing by name of section
- (C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/refcount\refcount.sty
+
+(C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/refcount\refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
-) (C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty
+)
+(C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/generic/gettitlestring\gettitl
+estring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count327
-) (C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/generic/stringenc\stringenc.sty
-Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
+)
+(C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/generic/stringenc\stringenc.st
+y
+Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO
+)
 )
 \@linkdim=\dimen279
 \Hy@linkcounter=\count328
@@ -527,11 +690,13 @@ Package: stringenc 2019/11/29 v1.12 Convert strings between diff. encodings (HO)
 File: pd1enc.def 2025-07-12 v7.01o Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
-) (C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/generic/intcalc\intcalc.sty
+)
+(C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/generic/intcalc\intcalc.sty
 Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
 )
 \Hy@SavedSpaceFactor=\count330
- (C:\Program Files\MiKTeX\tex/latex/hyperref\puenc.def
+
+(C:\Program Files\MiKTeX\tex/latex/hyperref\puenc.def
 File: puenc.def 2025-07-12 v7.01o Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
@@ -547,10 +712,14 @@ Package hyperref Info: Bookmarks ON on input line 4462.
 \c@Hy@tempcnt=\count331
 LaTeX Info: Redefining \url on input line 4801.
 \XeTeXLinkMargin=\dimen280
- (C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/generic/bitset\bitset.sty
+
+(C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/generic/bitset\bitset.sty
 Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
- (C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty
-Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO)
+
+(C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/generic/bigintcalc\bigintcalc.
+sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
 ))
 \Fld@menulength=\count332
 \Field@Width=\dimen281
@@ -571,21 +740,29 @@ Package hyperref Info: Driver (autodetected): hpdftex.
 File: hpdftex.def 2025-07-12 v7.01o Hyperref driver for pdfTeX
 \Fld@listcount=\count336
 \c@bookmark@seq@number=\count337
- (C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty
+
+(C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/rerunfilecheck\rerunfile
+check.sty
 Package: rerunfilecheck 2025-06-21 v1.11 Rerun checks for auxiliary files (HO)
- (C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty
+
+(C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/generic/uniquecounter\uniqueco
+unter.sty
 Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
-Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 284.
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+84.
 )
 \Hy@SectionHShift=\skip107
 )
 Package hyperref Info: Option `breaklinks' set `true' on input line 25.
 Package hyperref Info: Option `bookmarksopen' set `true' on input line 25.
-LaTeX Font Info:    Trying to load font information for T1+ptm on input line 25.
- (C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/psnfss\t1ptm.fd
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 25
+.
+
+(C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/psnfss\t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
-) (AcademicCv.aux)
+)
+(AcademicCv.aux)
 \openout1 = `AcademicCv.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
@@ -621,8 +798,10 @@ LaTeX Font Info:    ... okay on input line 25.
 \everyMPtoPDFconversion=\toks41
 ) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 LaTeX Info: Redefining \microtypecontext on input line 25.
@@ -642,7 +821,8 @@ Package microtype Info: Patching command `\showhyphens'.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
- (C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/microtype\mt-ptm.cfg
+
+(C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/microtype\mt-ptm.cfg
 File: mt-ptm.cfg 2006/04/20 v1.7 microtype config. file: Times (RS)
 )
 *geometry* driver: auto-detecting
@@ -686,40 +866,63 @@ Package hyperref Info: Link coloring OFF on input line 25.
 \openout4 = `AcademicCv.out'.
 
 \pagenumberwidth=\skip108
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on input line 27.
- (C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/fontawesome5\ufontawesomefree2.fd)
-LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 27.
- (C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/psnfss\ts1ptm.fd
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on i
+nput line 27.
+
+(C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/fontawesome5\ufontawesom
+efree2.fd)
+LaTeX Font Info:    Trying to load font information for TS1+ptm on input line 2
+7.
+
+(C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/psnfss\ts1ptm.fd
 File: ts1ptm.fd 2001/06/04 font definitions for TS1/ptm.
 )
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on input line 27.
- (C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/fontawesome5\ufontawesomefree1.fd)
-LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on input line 27.
- (C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/fontawesome5\ufontawesomebrands0.fd)
-LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <10.95> not available
-(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead on input line 27.
-LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line 27.
- (C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/psnfss\ot1ztmcm.fd
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on i
+nput line 27.
+
+(C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/fontawesome5\ufontawesom
+efree1.fd)
+LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on
+ input line 27.
+
+(C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/fontawesome5\ufontawesom
+ebrands0.fd)
+LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <10.95> n
+ot available
+(Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
+n input line 27.
+LaTeX Font Info:    Trying to load font information for OT1+ztmcm on input line
+ 27.
+
+(C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/psnfss\ot1ztmcm.fd
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `ztmcm' (encoding: OT1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line 27.
- (C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/psnfss\omlztmcm.fd
+LaTeX Font Info:    Trying to load font information for OML+ztmcm on input line
+ 27.
+
+(C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/psnfss\omlztmcm.fd
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line 27.
- (C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/psnfss\omsztmcm.fd
+LaTeX Font Info:    Trying to load font information for OMS+ztmcm on input line
+ 27.
+
+(C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/psnfss\omsztmcm.fd
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line 27.
- (C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/psnfss\omxztmcm.fd
+LaTeX Font Info:    Trying to load font information for OMX+ztmcm on input line
+ 27.
+
+(C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/psnfss\omxztmcm.fd
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 27.
- (C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/psnfss\ot1ptm.fd
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 2
+7.
+
+(C:\Users\ahsanauddry\AppData\Roaming\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
@@ -732,7 +935,13 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 
 [1
 
-{C:/Users/ahsanauddry/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc}{C:/Users/ahsanauddry/AppData/Roaming/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free2.enc}{C:/Users/ahsanauddry/AppData/Roaming/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free1.enc}{C:/Users/ahsanauddry/AppData/Roaming/MiKTeX/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{C:/Users/ahsanauddry/AppData/Roaming/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free0.enc}]
+{C:/Users/ahsanauddry/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Prog
+ram Files/MiKTeX/fonts/enc/dvips/base/8r.enc}{C:/Users/ahsanauddry/AppData/Roam
+ing/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free2.enc}{C:/Users/ahsanauddry/AppD
+ata/Roaming/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free1.enc}{C:/Users/ahsanaud
+dry/AppData/Roaming/MiKTeX/fonts/enc/dvips/fontawesome5/fa5brands0.enc}{C:/User
+s/ahsanauddry/AppData/Roaming/MiKTeX/fonts/enc/dvips/fontawesome5/fa5free0.enc}
+]
 
 [2] (AcademicCv.aux)
  ***********
@@ -743,15 +952,22 @@ Package rerunfilecheck Info: File `AcademicCv.out' has not changed.
 (rerunfilecheck)             Checksum: 59E59BC98D85404B97C083943C80D24B;888.
  ) 
 Here is how much of TeX's memory you used:
- 26963 strings out of 468130
- 514530 string characters out of 5440683
+ 26961 strings out of 468130
+ 514485 string characters out of 5440683
  930810 words of memory out of 5000000
  55007 multiletter control sequences out of 15000+600000
  675739 words of font info for 145 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 129i,12n,129p,1022b,464s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/ahsanauddry/AppData/Roaming/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb><C:/Users/ahsanauddry/AppData/Roaming/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb><C:/Users/ahsanauddry/AppData/Roaming/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on AcademicCv.pdf (2 pages, 147890 bytes).
+ 129i,12n,129p,1009b,464s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/ahsanauddry/AppData/Roaming/MiKTeX/fonts/type1/public/fontawesome5/
+FontAwesome5Brands-Regular.pfb><C:/Users/ahsanauddry/AppData/Roaming/MiKTeX/fon
+ts/type1/public/fontawesome5/FontAwesome5Free-Regular.pfb><C:/Users/ahsanauddry
+/AppData/Roaming/MiKTeX/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.
+pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files
+/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX/fonts/type1/
+urw/times/utmr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/times/utmri8a.pfb
+>
+Output written on AcademicCv.pdf (2 pages, 147934 bytes).
 PDF statistics:
  96 PDF objects out of 1000 (max. 8388607)
  10 named destinations out of 1000 (max. 500000)
