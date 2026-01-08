@@ -1,0 +1,268 @@
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+% The preceding line is only needed to identify funding in the first footnote. If that is unneeded, please comment it out.
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
+\usepackage{graphicx}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{booktabs} % Added for better table formatting
+\usepackage{float} % Added for exact table placement
+\def\BibTeX{{\rm B\kern-.05em{\\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+
+\begin{document}
+
+\title{Prediction to Prescription: A Cost-Driven Framework for Customer Churn Prevention in Telecommunications}
+
+\author{\IEEEauthorblockN{Faiyaz Ahmed Chowdhury, Shantanu Barua, Amira Tanjum Chowdhury}
+\IEEEauthorblockA{\textit{Department of Computer Science and Engineering} \\
+\textit{BRAC University}\\
+Dhaka, Bangladesh \\
+% email address or ORCID can be added here
+}}
+
+\maketitle
+
+\begin{abstract}
+Customer churn costs the telecommunications industry about \$65B every year. Although many machine learning models achieve over 90\% prediction accuracy, they often fail to provide clear and practical guidance for customer retention when budgets are limited. In this paper, we propose the Interpretable Prescriptive Strategy Framework (IPSF), which combines cost-sensitive XGBoost (with a 10:1 penalty for false negatives), SHAP-based interpretability, and intervention optimization to maximize return on investment (ROI). SHAP values are combined with intervention costs and expected impact to calculate Intervention Priority Scores, while a 2x2 Action Matrix divides customers into strategic decision groups. Experiments on 7,043 telecommunications customers show that IPSF achieves 84.8\% recall while reducing business costs by 50.2\%. From 704 high-risk customers, 217 Quick Wins receive low-cost interventions with an average cost of \$7.88, producing a 344\% ROI. The framework also shows strong robustness, with 72.6\% segmentation stability under $\pm$40\% parameter variation, and no evidence of demographic bias ($p > 0.05$). Ablation analysis shows that portfolio optimization alone improves ROI by 90.9\%, establishing IPSF as the first framework to operationalize SHAP for prescriptive decision-making under limited resources.
+\end{abstract}
+
+\begin{IEEEkeywords}
+Customer churn, prescriptive analytics, cost-sensitive learning, explainable AI, SHAP, XGBoost, intervention prioritization
+\end{IEEEkeywords}
+
+\section{Introduction}
+Customer churn: the choice of a customer to cease using a service remains one of the most significant financial issues of telecommunication companies. The churn is leading to losses of over 65 billion every year with the churn rates generally being 20--40\% \cite{b1}. Maintaining customers is much cheaper than acquisition since it is 5--25 times cheaper than acquiring customers \cite{b2}. Machine learning has enhanced churn prediction, and methods like gradient boosting can be used to predict customers who are likely to churn with 85--95\% accuracy \cite{b3,b4}.
+
+Nevertheless, the fact that the predictive accuracy is high will not translate into effective retention actions. The question of priority in terms of the customers that should be prioritized in case of limited budgets, which retention interventions are the most effective in terms of return on investment (ROI), and the most effective use of resources across various causes of customer churn remains unclear to companies.
+
+The existing methods of churn management have three significant weaknesses. First, the majority of the models are programmed to maximize the performance indicators, including AUC-ROC and F1-score, but do not offer guidance on what types of retention actions to select and how to implement them in a cost-efficient manner \cite{b5}. Second, current deployment strategies are not always cost-effective. As an example, blanket incentive schemes overlook customer differences, probability-based rankings are not sensitive to intervention cost or causation, and customer lifetime value (CLV) schemes focus on long-term value without paying attention to the causes of individual churning \cite{b6,b7}. Third, most of the highly performing ensemble and deep learning models are black boxes, which minimizes interpretability, the stakeholder trust, and it is challenging to develop focused and practical retention interventions \cite{b8}.
+
+In order to address these shortcomings, we are proposing the Interpretable Prescriptive Strategy Framework (IPSF) that incorporates five main elements (1) cost-sensitive XGBoost model with a cost-to-false-negative ratio of 10:1, (2) SHAP to explain individual-level drivers of churn, (3) Intervention Priority Score that compounds churn risk, intervention cost, and predicted retention impact, (4) a clear taxonomy of actionable features that distinguishes between modifiable and non-modifiable attributes. All these combined enable organizations to maximize ROI directly as they can be operated within realistic resource and budget constraints.
+
+\section{Literature Review}
+Churn management strategies have evolved through three interdependent phases: predictive accuracy, economic optimization, and interpretable decision-making.
+
+\subsection{Predictive Modeling}
+Large-scale reviews covering more than 100 studies show that tree-based boosting models such as Random Forest, Gradient Boosting, and XGBoost, consistently perform best for churn prediction. These models frequently achieve AUC scores above 0.90 on well-known datasets like IBM Telco \cite{b3,b4,b9}. Prior research groups churn drivers into four main categories: demographic, service-usage, contractual, and billing factors. This classification directly supports the IPSF design by separating modifiable attributes from non-modifiable ones \cite{b10}. However, even with very high predictive accuracy, the black-box nature of these models limits their practical business use. Most existing studies focus on prediction rather than guiding real retention actions \cite{b5}. Gap 1: Although predictive performance has reached a high level, effective strategic decision support for churn management is still underdeveloped.
+
+\subsection{Cost-Sensitive Learning}
+Differences in error costs make cost-sensitive modeling essential in churn prediction. Failing to identify a churner (a false negative) results in the loss of the entire Customer Lifetime Value, whereas contacting a loyal customer by mistake (a false positive) only incurs a small marketing cost \cite{b6}. Studies using customer-specific cost matrices have shown up to 22\% cost savings compared to standard classifiers, which supports the use of a 10:1 cost ratio in IPSF \cite{b11}. More recent Predict-and-Optimize approaches aim to reduce decision regret rather than pure classification error, often using individual CLVs to focus on the most profitable customers \cite{b7}. However, many of these methods stop at cost-adjusted prediction and do not translate results into clear retention actions. Gap 2: Existing approaches usually treat retention as a simple yes-or-no decision, instead of selecting from a set of tailored intervention strategies.
+
+\subsection{Explainable AI}
+SHAP is grounded in cooperative game theory and uses Shapley values to provide mathematically sound feature attribution. These attributions satisfy key properties such as efficiency, symmetry, additivity, and the null player condition. In this approach, a model prediction can be decomposed as $f(i) = \phi_0 + \Sigma \phi_i$, where each term represents an interpretable contribution of individual features \cite{b12,b13}. In telecommunications research, SHAP is commonly used to visualize feature importance and identify churn drivers. However, most applications stop at explanation and do not provide a structured way to connect interpretability with concrete intervention decisions \cite{b14}. Gap 3: While SHAP effectively identifies key churn drivers, it is rarely linked to optimized and actionable decision-making.
+
+No prior studies combine these dimensions into a unified framework recommending specific interventions under resource constraints---the core motivation of IPSF.
+
+\section{Methodology}
+
+\subsection{Dataset and Feature Engineering}
+IPSF is evaluated on the Telco Customer Churn dataset (7,043 customers, 20 original features across demographics, service subscriptions, contract, and billing). The target, churn, is 26.5\% positive (1,869 churners, 5,174 non-churners). Five engineered interaction features capture business-relevant patterns: HighRisk\_Contract (month-to-month with tenure $<$12 months), Premium\_NoSupport (fiber optic without tech support), Payment\_Risk (electronic check without paperless billing), Charge\_Tenure\_Ratio (monthly charges normalized by tenure), and Has\_Phone\_No\_Internet. The final feature set contains 24 variables: 13 modifiable, 6 non-modifiable, and 5 engineered, ensuring recommendations target actionable levers.
+
+\subsection{Cost-Sensitive Churn Prediction}
+Standard models assume symmetric misclassification costs; IPSF incorporates asymmetric business costs: Cost(FN) = \$500 and Cost(FP) = \$50, yielding a 10:1 cost ratio reflecting that losing a churner is 10x more costly than unnecessary contact. Cost sensitivity is implemented via XGBoost's scale\_pos\_weight = 27.69 (cost ratio x class imbalance 2.77:1). Hyperparameters include max depth 6, learning rate 0.1, 200 trees, and subsample/column-subsample ratios 0.8.
+
+\subsection{SHAP-Based Interpretability}
+For each customer $c$, predicted churn $f(x_c)$ is decomposed as base rate $\phi_0$ plus feature-level contributions $\phi_{c,j}$, where positive values increase churn risk. This enables precise identification of dominant churn drivers at individual level.
+
+\subsection{Intervention Priority Score}
+
+The \textbf{IPS} for modifiable feature $f$ combines three factors: attribution magnitude, retention lift, and intervention cost:
+
+\begin{equation}
+\text{IPS}_{c,f} = \frac{|\phi_{c,f}| \times \Delta P_{\text{retention}}}{\text{Cost}_f}
+\label{eq:ips}
+\end{equation}
+
+The intervention maximizing \textbf{IPS} with $\phi_{c,f} > 0$ is selected, ensuring alignment with actual churn drivers. Intervention costs (\$5--\$150) and retention lifts (3--15\%) are based on industry standards (Table I).
+
+\begin{table}[htbp]
+\caption{Intervention Parameters}
+\label{tab1}
+\begin{center}
+\begin{tabular}{|l|l|c|c|}
+\hline
+\textbf{Feature} & \textbf{Intervention} & \textbf{Cost} & \textbf{Impact} \\
+\hline
+MonthlyCharges & Plan review & \$5 & 10\% \\
+\hline
+PaymentMethod & Auto-pay incentive & \$10 & 5\% \\
+\hline
+TechSupport & 6-month free support & \$20 & 15\% \\
+\hline
+OnlineSecurity & 1-year free security & \$30 & 10\% \\
+\hline
+InternetService & Speed upgrade & \$50 & 10\% \\
+\hline
+Contract & Upgrade incentive & \$150 & 15\% \\
+\hline
+\end{tabular}
+% \label{tab1} removed from here
+\end{center}
+\end{table}
+
+\subsection{2x2 Action Matrix}
+Customers are mapped into a strategic matrix: Impact = absolute SHAP value of optimal intervention; Ease = 1/(Cost+1). Median thresholds define four segments---Quick Wins, Strategic Investments, Low Priority, Monitor Only---with explicit guidance on budget allocation, response urgency, and expected ROI.
+
+\section{Experimental Setup}
+Apple M1 or Intel i7 processors were tested on systems having 16 GB RAM. I have installed the Python 3.11, XGBoost 2.1.3, SHAP 0.44.1, and scikit-learn 1.3.2 software stack, and the pipeline was run in 10-15 minutes.
+
+IPSF is contrasted with nine retention strategies (1) IPSF Full Portfolio (SHAP targeting + portfolio optimization), (2) IPSF Uniform 50 (SHAP targeting, uniform cost), (3) Profit-Driven 6-Portfolio (top 40 percent by P(churn) x CLV, cheapest intervention), (4) Profit-Driven Uniform 50, (5) Probability Ranking (top 50 percent by churn probability), (6) CLV Prioritization (top 30 percent).
+
+Accuracy, precision, recall (as the primary measure), F1-score, AUC-ROC, and business cost (Cost = 500xFN + 50xFP) are used as the measures of performance. Equity is evaluated through chi-square (=0.05) and disparate-impact (80\% rule) analysis. Jaccard similarity is used to measure stability under parameter perturbation with J=0.70 taken as an acceptable value of robustness.
+
+\section{Results}
+
+\subsection{Cost-Sensitive Prediction Performance}
+Table~\ref{tab2} is a comparison between cost-sensitive XGBoost and an accuracy-optimized baseline on 1,409 test customers. The cost-sensitive model recalls 84.8\% which is a 63.4\% relative increase over the baseline of 51.9\% and is able to identify 317 of 374 churners instead of 194. False negatives drop 68.3\% from 180 to 57. Business cost reduces by \$96,150 to \$47,850, and saves \$48,300 (50.2\%). Such trade-offs are expected to be paid: accuracy goes down 12.7\% and precision goes down 26.5\%, and AUC goes down only 0.5\%, which proves that the quality of ranking is preserved.
+
+\begin{table}[htbp]
+\caption{Model Performance Comparison}
+\label{tab2}
+\begin{center}
+\begin{tabular}{|l|c|c|c|}
+\hline
+\textbf{Metric} & \textbf{Baseline} & \textbf{Cost-Sensitive} & \textbf{Change} \\
+\hline
+Accuracy & 0.785 & 0.685 & -12.7\% \\
+\hline
+Precision & 0.612 & 0.450 & -26.5\% \\
+\hline
+Recall & 0.519 & 0.848 & +63.4\% \\
+\hline
+F1-Score & 0.562 & 0.588 & +4.6\% \\
+\hline
+AUC-ROC & 0.828 & 0.824 & -0.5\% \\
+\hline
+Business Cost & \$96,150 & \$47,850 & -50.2\% \\
+\hline
+\end{tabular}
+% \label{tab2} removed
+\end{center}
+\end{table}
+
+\subsection{SHAP-Based Feature Importance}
+\begin{table}[H]
+\caption{Top 10 Features by SHAP Importance}
+\label{tab3}
+\begin{center}
+\begin{tabular}{|c|l|c|l|}
+\hline
+\textbf{Rank} & \textbf{Feature} & \textbf{SHAP} & \textbf{Type} \\
+\hline
+1 & Charge Tenure Ratio & 0.995 & Engineered \\
+\hline
+2 & Contract & 0.881 & Modifiable \\
+\hline
+3 & TotalCharges & 0.662 & Non-modifiable \\
+\hline
+4 & MonthlyCharges & 0.611 & Modifiable \\
+\hline
+5 & tenure & 0.479 & Non-modifiable \\
+\hline
+6 & PaymentMethod & 0.301 & Modifiable \\
+\hline
+7 & OnlineSecurity & 0.261 & Modifiable \\
+\hline
+8 & Premium NoSupport & 0.175 & Engineered \\
+\hline
+9 & MultipleLines & 0.156 & Modifiable \\
+\hline
+10 & InternetService & 0.155 & Modifiable \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+The results of global SHAP analysis (Table~\ref{tab3}) are ranked by mean absolute contribution. The actionability of IPSF is confirmed by the fact that seven out of the top ten features are modifiable or engineered. The first one is Engineered Charge Tenure Ratio (0.995) which emphasizes domain-guided feature engineering. The type of contract (0.881) proves the month-to-month contracts as the main drivers of churn, whereas the MonthlyCharges (0.611) provides an accent on the price sensitivity.
+
+
+\subsection{Action Matrix Outcomes}
+\begin{table}[H]
+\caption{Action Matrix Segmentation}
+\label{tab4}
+\begin{center}
+\begin{tabular}{|l|c|c|c|c|c|}
+\hline
+\textbf{Quadrant} & \textbf{Count} & \textbf{\%} & \textbf{Cost} & \textbf{Impact} & \textbf{ROI} \\
+\hline
+Quick Wins & 217 & 30.8\% & \$7.88 & 6.99\% & 344\% \\
+\hline
+Strategic Inv. & 135 & 19.2\% & \$103.81 & 13.15\% & -37\% \\
+\hline
+Low Priority & 251 & 35.7\% & \$7.11 & 6.33\% & 345\% \\
+\hline
+Monitor Only & 101 & 14.3\% & \$24.75 & 12.13\% & 145\% \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+On 704 high-risk customers, IPSF suggests various interventions: MonthlyCharges (26.1\%), PaymentMethod (26.0\%), Contract upgrades (11.9\%), OnlineSecurity (11.8\%), and TechSupport (7.7\%). Comprehensively, 52.1\% of levers of pricing-related targets, which is consistent with price sensitivity as determined by SHAP.
+
+The customers are segmented in the 2x2 Action Matrix (Table~\ref{tab4}). Quick Wins (217, 30.8\%) are provided with low-cost interventions with the average cost of \$7.88, which give 344\% ROI, saving 15.2 customers, and bringing the profit of \$5,890. Low Priority (251, 35.7\%) will get 345\% ROI through scalable batch campaigns. Monitor Only (101, 14.3\%) generates 145\% ROI with average cost (\$24.75). Strategic Investments (135, 19.2\%) are costly to intervene in (average cost is \$103.81), with a payoff of $-37$\%, should be approved by the executive and should selectively target high-CLV customers.
+
+
+\subsection{Baseline Comparison and Ablation Analysis}
+\begin{table}[H]
+\caption{Baseline Method Comparison}
+\label{tab5}
+\begin{center}
+\begin{tabular}{|l|c|c|c|l|}
+\hline
+\textbf{Method} & \textbf{Cost} & \textbf{ROI} & \textbf{Cost/Save} & \textbf{Coverage} \\
+\hline
+IPSF (Full) & \$1,710 & 344\% & \$112.50 & Quick Wins \\
+\hline
+Profit-Driven & \$1,405 & 2,700\% & \$17.86 & 2\% only \\
+\hline
+IPSF (Unif. \$50) & \$10,850 & 180\% & \$178.57 & All high-risk \\
+\hline
+Prob. Ranking & \$17,600 & 150\% & \$200.00 & Top 50\% \\
+\hline
+CLV Priority & \$10,550 & 120\% & \$227.27 & Top 30\% \\
+\hline
+Blanket Camp. & \$35,200 & 100\% & \$250.00 & All cust. \\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+Table~\ref{tab5} indicates that IPSF Full Portfolio has 344\% ROI and lower cost-per-save (\$112.50). Ablation analysis shows: (1) Portfolio optimization adds +90.9\% ROI improvement as compared to uniform interventions of \$50 (2) SHAP targeting does not reduce ROI (180\% baseline), and (3) combined IPSF outperforms best alternative (Profit-Driven 6-Portfolio: 2,700\% ROI on tiny cost of \$1,405, but only covers 2\% of high-risk customers). Significance ($p<0.001$) is verified by bootstrap analysis (1,000 resamples). In the worst-case scenario (-40\% impact, +40\% cost), IPSF can retain 187\% ROI, which confirms the robustness.
+
+
+\subsection{Robustness and Fairness}
+Robustness under 100 randomized perturbations shows: $\pm$20\% yields 87.5\% quadrant stability; $\pm$30\%, 80.4\%; $\pm$40\%, 72.6\%. Quick Wins exhibits highest stability (77.4\% at $\pm$40\%), Strategic Investments lowest (65.9\%). Fairness evaluation confirms no demographic bias: $\chi^2$ tests for gender (3.89, $p=0.274$) and senior status (0.67, $p=0.880$) show independence, while 80\% disparate impact rule is satisfied (Quick Wins: Female/Male = 95.9\%, Senior/Non-Senior = 100\%).
+
+\section{Discussion and Conclusion}
+This paper fills the urgent need to bridge the churn prediction and actionable prevention gap by introducing IPSF that consolidates cost-sensitive learning, interpretable AI and the optimization of interventions into a single prescriptive system.
+
+Our cost-conscious XGBoost has 84.8\% recall and saves 50.2\% of the business costs (saving \$48,300) over accuracy-driven baselines, which confirm that cost-aware training aligns model decisions with the goals of the business. The 12.7\% decrease in accuracy is acceptable considering that false negatives are 10 times more expensive. SHAP analysis indicates that 7 of the top 10 features are manipulative, which has definite intervention points and operationalizes interpretability beyond transparency.
+
+The IPS measure ranks interventions based on anticipated ROI. Quick Wins with average interventions of \$7.88 bring 344\% ROI to the customers. The Action Matrix 2x2 transforms continuous scores into the actionable quadrants that allow the deployment to be scaled: Quick Wins (30.8\%) are provided with direct intervention, Strategic Investments (19.2\%) are to be approved by the executive, Low Priority (35.7\%) are automated campaigns, and Monitor Only (14.3\%) are passive tracking.
+
+Ablation analysis proves that portfolio optimization adds +90.9\% ROI increment over homogenous intervention, which proves the value of customer-specific intervention matching. Robustness test indicates that there is a 72.6\% stability of the quadrant with parameter perturbation of up to $\pm$40\%. The evaluation of fairness ensures that there is no demographic bias ($p > 0.05$), and fairness-by-design of IPSF does not include non-modifiable features in IPS computation.
+
+Limitations: IPSF is based on domain-specified parameters of interventions, and it is an independent intervention effect assumption. The negative ROI of Strategic Investments implies that more advanced rules of targeting are necessary. The future research needs to investigate causal inference to estimate the effect of interventions, dynamic cost benefit threshold that responds to market conditions, and sequencing the intervention.
+
+IPSF implements SHAP to prescriptive intervention, providing cost reduction, high ROI, robustness and fairness, as an economic optimization of actionable prevention in subscription-based business.
+
+\begin{thebibliography}{00}
+\bibitem{b1} A. Banarase, R. Dave, V. Chavan, and K. Bhagwat, ``Machine learning approaches for customer churn prediction in telecommunications,'' \textit{International Journal of Telecommunication and Emerging Technologies}, vol. 10, no. 2, pp. 1--7, 2024.
+\bibitem{b2} S. Saraswat and A. Tiwari, ``A new approach for customer churn prediction in telecom industry,'' \textit{International Journal of Computer Applications}, vol. 181, no. 11, pp. 40--45, 2018.
+\bibitem{b3} A. Bhatnagar and S. Srivastava, ``Customer churn prediction: A machine learning approach with data balancing for telecom industry,'' \textit{International Journal of Computing}, vol. 24, no. 1, pp. 9--18, 2025.
+\bibitem{b4} A. K. Ahmad, A. Jafar, and K. Aljoumaa, ``Customer churn prediction in telecom using machine learning in big data platform,'' \textit{Journal of Big Data}, vol. 6, no. 28, pp. 1--24, 2019.
+\bibitem{b5} T. Verhelst, O. Caelen, J.-C. Dewitte, B. Lebichot, and G. Bontempi, ``Understanding telecom customer churn with machine learning: From prediction to causal inference,'' Preprint, 2019.
+\bibitem{b6} J. Xiao, L. Huang, and L. Xie, ``Cost-sensitive semi-supervised ensemble model for customer churn prediction,'' in \textit{2018 15th International Conference on Service Systems and Service Management (ICSSSM)}, July 2018.
+\bibitem{b7} A. Correa Bahnsen, D. Aouada, and B. Ottersten, ``A novel cost-sensitive framework for customer churn predictive modeling,'' \textit{Decision Analytics}, vol. 2, no. 1, p. 5, 2015.
+\bibitem{b8} N. Gómez-Vargas, S. Maldonado, and C. Vairetti, ``A predict-and-optimize approach to profit-driven churn prevention,'' \textit{arXiv preprint arXiv:2310.07047}, 2023.
+\bibitem{b9} H. K. Thakkar, A. Desai, S. Ghosh, P. Singh, and G. Sharma, ``Clairvoyant: AdaBoost with cost-enabled cost-sensitive classifier for customer churn prediction,'' \textit{Computational Intelligence and Neuroscience}, vol. 2022, 2022.
+\bibitem{b10} A. V. Ponce-Bobadilla, V. Schmitt, C. S. Maier, S. Mensing, and S. Stodtmann, ``Practical guide to SHAP analysis: Explaining supervised machine learning model predictions in drug development,'' \textit{Clinical and Translational Science}, vol. 17, p. e70056, 2024.
+\bibitem{b11} N. Al-Madi, H. Faris, and R. Abukhurma, ``Cost-sensitive genetic programming for churn prediction and identification of the influencing factors in telecommunication market,'' \textit{International Journal of Advanced Science and Technology}, vol. 120, pp. 13--28, 2018.
+\bibitem{b12} X. Zeng, ``Enhancing the interpretability of SHAP values using large language models,'' Preprint.
+\bibitem{b13} H. Papneja, ``Interpretable machine learning with R: LIME and SHAP,'' in \textit{52nd SWDSI Conference}, March 2023.
+\bibitem{b14} A. Herren and P. R. Hahn, ``Statistical aspects of SHAP: Functional ANOVA for model interpretation,'' \textit{arXiv preprint arXiv:2208.09970}, 2022.
+\bibitem{b22} M. Baskan, ``A machine learning framework to address customer churn problem using uplift modelling and prescriptive analysis,'' Jan. 2023.
+\bibitem{b23} A. M. Salih et al., ``A perspective on explainable artificial intelligence methods: SHAP and LIME,'' \textit{Advanced Intelligent Systems}, vol. 7, no. 1, 2024.
+\end{thebibliography}
+
+\end{document}
